@@ -256,14 +256,8 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
-  .right-3 {
-    right: calc(var(--spacing) * 3);
-  }
   .right-6 {
     right: calc(var(--spacing) * 6);
-  }
-  .bottom-3 {
-    bottom: calc(var(--spacing) * 3);
   }
   .bottom-6 {
     bottom: calc(var(--spacing) * 6);
@@ -559,9 +553,6 @@
   .overflow-x-auto {
     overflow-x: auto;
   }
-  .rounded {
-    border-radius: 0.25rem;
-  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -783,9 +774,6 @@
   }
   .object-cover {
     object-fit: cover;
-  }
-  .p-1 {
-    padding: calc(var(--spacing) * 1);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);

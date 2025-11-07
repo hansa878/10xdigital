@@ -135,9 +135,6 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm relative">
         © 2025 10xDigital.pk. All Rights Reserved. | Helping businesses achieve 10x faster growth.
-        <div className="absolute bottom-3 right-3 border rounded p-1 bg-white text-black text-xs">
-          Built with Rocket.new
-        </div>
       </div>
     </footer>
   );

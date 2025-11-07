@@ -10,8 +10,8 @@
 
 .animate-marquee {
   display: flex;
-  gap: 2rem; /* logos ke beech gap */
-  animation: marquee 30s linear infinite;
+  gap: 1.5rem; /* logos ke beech thoda kam gap */
+  animation: marquee 15s linear infinite; /* faster scroll, 15s instead of 30s */
 }
 
 .brand-container {
@@ -36,7 +36,7 @@
 .brand-name {
   margin-top: 0.5rem;
   font-size: 0.75rem;
-  color: #fff; /* black text on dark background, ya white for dark bg */
+  color: #fff; /* white text on dark bg */
   line-height: 1rem;
   word-break: break-word; /* long names wrap ho */
 }

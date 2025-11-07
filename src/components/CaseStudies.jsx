@@ -152,7 +152,7 @@ const CaseStudies = () => {
           <div className="px-6 pb-6 text-left">
             <h3 className="text-white text-2xl font-bold mb-2">Business Podcast</h3>
             <p className="text-gray-400 mb-6">
-              From zero to 20K+ monthly plays and industry authority
+              From zero to 1M+ monthly plays and industry authority
             </p>
 
             <div className="flex justify-between items-center text-sm md:text-base mb-4">

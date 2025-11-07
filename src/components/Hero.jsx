@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="text-green-400 text-center mb-10 leading-relaxed font-inter">
             <p className="text-xl sm:text-2xl md:text-3xl font-semibold">
-              300% Revenue Increase in 90 Days | Doubled Conversions in 6
+              100% Revenue Increase in 90 Days | Doubled Conversions in 6
             </p>
             <p className="text-2xl sm:text-3xl md:text-4xl font-bold mt-1">
               Weeks | 1M+ Podcast Plays
