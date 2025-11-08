@@ -13,13 +13,13 @@ const CaseStudies = () => {
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold mb-4">
         <span className="text-red-500">Proven Results</span>{" "}
-        <span className="text-white">That Speak for Themselves</span>
+        <span className="text-red-500">That Speak for Themselves</span>
       </h2>
 
       {/* Subheading */}
       <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-16">
         Real businesses, real growth, real results. Here’s how we’ve helped our
-        clients achieve <span className="text-red-500 font-semibold">10x growth</span>.
+        clients achieve <span className="text-gray-300 font-semibold">10x growth</span>.
       </p>
 
       {/* Cards */}
@@ -35,14 +35,14 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-              src="https://photos.peopleimages.com/picture/202302/2781542-ecommerce-fashion-startup-clothing-stock-and-online-retail-business-selling-designer-boutique-clothes-to-customers-on-internet-sales-website.-a-black-woman-designer-business-leader-and-delivery-man-fit_400_400.jpg"
+              src="https://cdn.dribbble.com/userupload/15259892/file/original-35a5eb87c6e3321eb53e23a2fa058d34.jpg?resize=400x0"
               alt="Fashion E-commerce"
               className="w-full h-44 object-cover rounded-xl"
             />
           </div>
           <div className="px-6 pb-6 text-left transition-all duration-300">
             <h3 className="text-white text-2xl font-bold mb-2">
-              Fashion E-commerce Store
+              Shopify/E-commerce Store
             </h3>
             <p className="text-gray-400 mb-6">
               From ₨50K to ₨200K monthly revenue in just 90 days
@@ -91,7 +91,7 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR008sTW6Qng8lh8KxYLWxlM6Af5OPu84C92A&s"
+              src="https://www.alphajwc.com/wp-content/uploads/2023/04/saas-concept-collage.jpg"
               alt="SaaS Startup"
               className="w-full h-44 object-cover rounded-xl"
             />

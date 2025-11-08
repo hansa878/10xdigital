@@ -110,12 +110,12 @@ const Footer = () => {
             </li>
             <li>
               <a href="#clients" className="hover:text-red-500 transition-colors">
-                Clients
+                Our Clients
               </a>
             </li>
             <li>
               <a href="#contact" className="hover:text-red-500 transition-colors">
-                Contact
+                Contact Us
               </a>
             </li>
             <li>

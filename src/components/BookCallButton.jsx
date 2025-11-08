@@ -84,7 +84,7 @@ const BookCallButton = () => {
         transition={{ duration: 0.6 }}
         className="max-w-6xl mx-auto text-center mb-10 mt-10"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold mb-4 text-red-500">
           Ready to <span className="text-red-500">10x Your Business?</span>
         </h2>
         <p className="text-gray-400 text-lg">
@@ -129,29 +129,48 @@ const BookCallButton = () => {
               {errors.challenge && <p className="text-red-500 text-sm mt-1">{errors.challenge}</p>}
             </div>
 
-            <button
-  type="submit"
-  className="w-full flex items-center justify-center gap-2 
-             bg-red-500 hover:bg-red-600 text-white font-semibold 
-             px-10 py-4 rounded-full transition text-lg"
->
-  <FaPhoneAlt /> Book Free Strategy Call
-</button>
+            {/* Submit Button */}
+{/* Submit Button */}
+<div className="flex flex-col items-center gap-4 mt-4">
+  {/* Buttons Section */}
+<div className="flex flex-col items-center gap-4 mt-4">
+  {/* Submit Button */}
+  {/* Buttons Section */}
+<div className="flex flex-col items-center gap-4 mt-4">
+  {/* Submit Button */}
+  <button
+    type="submit"
+    className="flex items-center justify-center gap-2 
+               bg-red-500 hover:bg-red-600 text-white font-semibold 
+               px-8 py-3 rounded-full transition text-lg w-64"
+  >
+    <FaPhoneAlt className="align-middle" /> Book Free Call
+  </button>
 
+  {/* Label above WhatsApp button */}
+  <p className="text-white font-semibold text-center w-64">
+    Or book via WhatsApp:
+  </p>
 
-
-            <div className="mt-4 text-center">
-              <p className="mb-2 font-semibold text-white">Or book instantly via WhatsApp:</p>
-              <a
+  {/* WhatsApp Button */}
+  <a
     href="https://wa.me/923366261060"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-full flex items-center justify-center gap-2 
+    className="flex items-center justify-center gap-2 
                bg-green-500 hover:bg-green-600 text-white font-semibold 
-               px-10 py-4 rounded-full transition text-lg"
+               px-8 py-3 rounded-full transition text-lg w-64"
   >
     <FaWhatsapp /> WhatsApp Booking
   </a>
+</div>
+
+</div>
+
+
+
+
+
             </div>
           </form>
         </div>
@@ -217,7 +236,7 @@ const BookCallButton = () => {
       {/* FAQ Section */}
       <section className="max-w-4xl mx-auto mb-16 mt-12">
         <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-4xl font-bold mb-4 text-red-500">
             Frequently Asked <span className="text-red-500">Questions</span>
           </h2>
           <p className="text-gray-400 text-lg">

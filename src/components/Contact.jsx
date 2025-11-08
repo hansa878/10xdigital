@@ -12,7 +12,7 @@ const Contact = () => {
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold mb-2"
+            className="text-4xl md:text-5xl font-bold mb-2 text-red-500"
           >
             Ready to <span className="text-red-500">Get Started?</span>
           </motion.h2>
@@ -57,11 +57,10 @@ const Contact = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   }}
-  className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-full mb-4 flex items-center justify-center gap-2 transition"
+  className="inline-flex bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full mb-4 items-center justify-center gap-2 transition text-lg"
 >
-  <FaPhoneAlt /> Book My Free Call Now
+  <FaPhoneAlt className="inline-block align-middle" /> Book My Free Call Now
 </button>
-
 
 
             <div className="text-gray-400 text-sm flex flex-col md:flex-row justify-center gap-4 mt-2">
@@ -95,7 +94,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-yellow-500" />
-                <span>Islamabad's lahore,Karachi</span>
+                <span>Islamabad's Lahore, Karachi</span>
               </div>
             </div>
 

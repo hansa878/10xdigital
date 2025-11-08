@@ -36,7 +36,7 @@ const Clients = () => {
   return (
     <section id="clients" className="bg-black py-20 px-4 sm:px-6 md:px-8 text-center overflow-hidden">
       <div className="max-w-4xl mx-auto mb-12">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-red-500 mb-4">
           Trusted by Leading <span className="text-red-500">Brands</span>
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-400 font-light">

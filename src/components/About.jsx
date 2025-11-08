@@ -2,19 +2,53 @@ import React from "react";
 import { motion } from "framer-motion";
 import img1 from "../assets/img.jpeg";
 import img2 from "../assets/img2.jpeg";
+import img3 from "../assets/img3.jpeg"; // Replace with actual image path
 
 const About = () => {
+  const cards = [
+    {
+      img: img1,
+      name: "Syed Ali Raza",
+      role: "Founder & CEO",
+      desc: "7+ years of experience scaling businesses from startup to 8-figures. Specialized in performance marketing and conversion optimization.",
+      stats: [
+        { title: "Campaigns Managed", value: "300+" },
+        { title: "Revenue Generated", value: "Rs2B+" }
+      ],
+      tags: ["Google Ads Certified", "Meta Ads Expert", "HubSpot Expert"]
+    },
+    {
+      img: img2,
+      name: "Abdul Qadeer",
+      role: "CTO",
+      desc: "10+ years building high-performance web applications and e-commerce platforms. Expert in modern web technologies and scalable architectures.",
+      stats: [
+        { title: "Websites Built", value: "200+" },
+        { title: "Uptime Record", value: "99.9%" }
+      ],
+      tags: ["React Expert", "Shopify Partner", "AWS Certified"]
+    },
+    {
+      img: img3,
+      name: "Saleha Naqvi",
+      role: "Director Creatives",
+      desc: "Director of Creatives, with over four years of experience leading innovative design initiatives, developing compelling visual strategies, and driving brand growth through creative excellence.",
+      stats: [],
+      tags: ["Visual Designer", "Art Designer", "Creative Expert"]
+    }
+  ];
+
   return (
     <section id="about" className="bg-black text-white py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        {/* ====== Heading ====== */}
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-semibold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-red-500">
             Meet the <span className="text-red-500">Growth Experts</span>
           </h2>
           <p className="text-gray-400 text-lg">
@@ -22,85 +56,56 @@ const About = () => {
           </p>
         </motion.div>
 
-        {/* ====== Expert Cards ====== */}
-        <div className="grid md:grid-cols-2 gap-10">
-          {/* === Card 1 === */}
-          <motion.div
-            whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-            className="bg-[#111] rounded-2xl p-6 text-center border border-gray-800 hover:border-red-500 transition-all duration-300 shadow-md"
-          >
-            <div className="relative w-36 h-36 mx-auto mb-4">
-              <div className="absolute top-1/2 left-1/2 w-36 h-36 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 blur-sm z-0"></div>
-              <img
-                src={img1}
-                alt="Syed Ali Raza"
-                className="relative z-10 rounded-full w-full h-full object-cover border-[2px] border-black"
-              />
-            </div>
-
-            <h3 className="text-2xl font-semibold mb-1">Syed Ali Raza</h3>
-            <p className="text-red-500 font-medium mb-4 text-base">Founder & CEO</p>
-            <p className="text-gray-300 text-sm mb-6 leading-relaxed">
-              7+ years of experience scaling businesses from startup to 8-figures. Specialized in performance marketing and conversion optimization.
-            </p>
-
-            <div className="flex justify-center gap-8 mb-4">
+        {/* Expert Cards */}
+        <div className="grid md:grid-cols-3 gap-10">
+          {cards.map((card, idx) => (
+            <motion.div
+              key={idx}
+              whileHover={{ scale: 1.02 }}
+              transition={{ duration: 0.3 }}
+              className="bg-[#111] rounded-2xl p-6 text-center border border-gray-800 hover:border-red-500 transition-all duration-300 shadow-md flex flex-col justify-between"
+            >
               <div>
-                <h4 className="text-green-400 text-xl font-semibold">300+</h4>
-                <p className="text-gray-400 text-xs">Campaigns Managed</p>
+                <div className="relative w-36 h-36 mx-auto mb-4">
+                  <div className="absolute top-1/2 left-1/2 w-36 h-36 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 blur-sm z-0"></div>
+                  <img
+                    src={card.img}
+                    alt={card.name}
+                    className="relative z-10 rounded-full w-full h-full object-cover border-[2px] border-black"
+                  />
+                </div>
+
+                <h3 className="text-2xl font-semibold mb-1">{card.name}</h3>
+                <p className="text-red-500 font-medium mb-4 text-base">{card.role}</p>
+                <p className="text-gray-300 text-sm mb-6 leading-relaxed">{card.desc}</p>
+
+                {card.stats.length > 0 && (
+                  <div className="flex justify-center gap-8 mb-4">
+                    {card.stats.map((stat, i) => (
+                      <div key={i}>
+                        <h4 className="text-green-400 text-xl font-semibold">{stat.value}</h4>
+                        <p className="text-gray-400 text-xs">{stat.title}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
-              <div>
-                <h4 className="text-green-400 text-xl font-semibold">Rs2B+</h4>
-                <p className="text-gray-400 text-xs">Revenue Generated</p>
-              </div>
-            </div>
 
-            <div className="flex flex-wrap justify-center gap-2">
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">Google Ads Certified</span>
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">Facebook Blueprint</span>
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">HubSpot Expert</span>
-            </div>
-          </motion.div>
+             <div className="flex justify-center gap-1 flex-wrap pt-2">
+  {card.tags.map((tag, i) => (
+    <span
+      key={i}
+      className="bg-red-700 text-white text-[10px] px-1 py-1 rounded-full whitespace-nowrap"
+    >
+      {tag}
+    </span>
+  ))}
+</div>
 
-          {/* === Card 2 === */}
-          <motion.div
-            whileHover={{ scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-            className="bg-[#111] rounded-2xl p-6 text-center border border-gray-800 hover:border-red-500 transition-all duration-300 shadow-md"
-          >
-            <div className="relative w-36 h-36 mx-auto mb-4">
-              <div className="absolute top-1/2 left-1/2 w-36 h-36 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600 blur-sm z-0"></div>
-              <img
-                src={img2}
-                alt="Abdul Qadeer"
-                className="relative z-10 rounded-full w-full h-full object-cover border-[2px] border-black"
-              />
-            </div>
 
-            <h3 className="text-2xl font-semibold mb-1">Abdul Qadeer</h3>
-            <p className="text-red-500 font-medium mb-4 text-base">CTO</p>
-            <p className="text-gray-300 text-sm mb-6 leading-relaxed">
-              10+ years building high-performance web applications and e-commerce platforms. Expert in modern web technologies and scalable architectures.
-            </p>
 
-            <div className="flex justify-center gap-8 mb-4">
-              <div>
-                <h4 className="text-green-400 text-xl font-semibold">200+</h4>
-                <p className="text-gray-400 text-xs">Websites Built</p>
-              </div>
-              <div>
-                <h4 className="text-green-400 text-xl font-semibold">99.9%</h4>
-                <p className="text-gray-400 text-xs">Uptime Record</p>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap justify-center gap-2">
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">React Expert</span>
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">Shopify Partner</span>
-              <span className="bg-red-700 text-white text-xs px-2 py-1 rounded-full">AWS Certified</span>
-            </div>
-          </motion.div>
+            </motion.div>
+          ))}
         </div>
       </div>
 
@@ -116,7 +121,7 @@ const About = () => {
 
       {/* Table Section */}
       <div className="max-w-6xl mx-auto mt-16 px-6">
-        <h2 className="text-3xl md:text-4xl font-semibold text-white text-center mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-500 text-center mb-4">
           Why Choose <span className="text-red-500">10xDigital.pk?</span>
         </h2>
         <p className="text-gray-400 text-center mb-10">
@@ -148,7 +153,7 @@ const About = () => {
       </tr>
       <tr className="border-b border-gray-700">
         <td className="py-4 px-8 font-medium text-white">Money-Back Guarantee</td>
-        <td className="py-4 px-8 text-green-500 font-bold">✓ 30 Days</td>
+        <td className="py-4 px-8 text-green-500 font-bold"> 30 Days</td>
         <td className="py-4 px-8 text-orange-500 font-bold">Limited</td>
         <td className="py-4 px-8 text-red-500 font-bold">None</td>
       </tr>

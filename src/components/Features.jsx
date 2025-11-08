@@ -5,7 +5,7 @@ const GrowthSystem = () => {
   return (
     <section id="services" className="bg-black text-center py-20 px-6">
       {/* Heading */}
-      <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold text-red-500 mb-4">
         Our <span className="text-red-500">10x Growth System</span>
       </h2>
 
