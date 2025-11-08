@@ -364,9 +364,6 @@
   .inline-block {
     display: inline-block;
   }
-  .inline-flex {
-    display: inline-flex;
-  }
   .h-3 {
     height: calc(var(--spacing) * 3);
   }
@@ -1261,9 +1258,9 @@
       width: calc(var(--spacing) * 12);
     }
   }
-  .sm\:w-auto {
+  .sm\:w-64 {
     @media (width >= 40rem) {
-      width: auto;
+      width: calc(var(--spacing) * 64);
     }
   }
   .sm\:grid-cols-2 {

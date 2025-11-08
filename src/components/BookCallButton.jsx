@@ -131,7 +131,9 @@ const BookCallButton = () => {
 
             <button
   type="submit"
-  className="w-full flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-md transition"
+  className="w-full flex items-center justify-center gap-2 
+             bg-red-500 hover:bg-red-600 text-white font-semibold 
+             px-10 py-4 rounded-full transition text-lg"
 >
   <FaPhoneAlt /> Book Free Strategy Call
 </button>
@@ -141,13 +143,15 @@ const BookCallButton = () => {
             <div className="mt-4 text-center">
               <p className="mb-2 font-semibold text-white">Or book instantly via WhatsApp:</p>
               <a
-  href="https://wa.me/923366261060"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-md transition"
->
-  <FaWhatsapp /> WhatsApp Booking
-</a>
+    href="https://wa.me/923366261060"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full flex items-center justify-center gap-2 
+               bg-green-500 hover:bg-green-600 text-white font-semibold 
+               px-10 py-4 rounded-full transition text-lg"
+  >
+    <FaWhatsapp /> WhatsApp Booking
+  </a>
             </div>
           </form>
         </div>

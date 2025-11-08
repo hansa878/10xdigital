@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SirImage from "../assets/sir.jpeg";
 
 const CaseStudies = () => {
   const [activeCard, setActiveCard] = useState(null);
@@ -144,10 +145,10 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-              src="https://media.istockphoto.com/id/2158195039/photo/female-broadcaster-interviewing-her-guest-in-a-studio.jpg?s=612x612&w=0&k=20&c=rotjVWD-q_O-i047xT1Gic8TUSgFTQhraSncZDeO8-g="
-              alt="Business Podcast"
-              className="w-full h-44 object-cover rounded-xl"
-            />
+    src={SirImage}
+    alt="Business Podcast"
+    className="w-full h-44 object-cover rounded-xl"
+  />
           </div>
           <div className="px-6 pb-6 text-left">
             <h3 className="text-white text-2xl font-bold mb-2">Business Podcast</h3>

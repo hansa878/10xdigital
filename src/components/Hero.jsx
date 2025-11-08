@@ -57,26 +57,35 @@ const Hero = () => {
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
-            <button
-              onClick={() => {
-                const section = document.getElementById("butto-call");
-                if (section) section.scrollIntoView({ behavior: "smooth" });
-              }}
-              className="flex items-center justify-center bg-red-600 text-white px-8 py-4 text-base sm:text-lg font-semibold rounded-md hover:bg-red-700 transition space-x-2 w-full sm:w-auto"
-            >
-              <FaPhoneAlt /> <span>Book Free Strategy Call</span>
-            </button>
+{/* Buttons Section */}
+<div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-6">
 
-            <a
-              href="https://wa.me/923001234567?text=Hello"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center bg-green-500 text-white px-8 py-4 text-base sm:text-lg font-semibold rounded-md hover:bg-green-600 transition space-x-2 w-full sm:w-auto"
-            >
-              <FaWhatsapp /> <span>WhatsApp Now</span>
-            </a>
-          </div>
+  {/* Book Free Strategy Call Button */}
+  <button
+    type="submit"
+    className="flex items-center justify-center gap-2 
+               bg-red-600 hover:bg-red-700 text-white font-semibold 
+               px-10 py-3 rounded-full transition text-lg 
+               whitespace-nowrap w-64 h-14"
+  >
+    <FaPhoneAlt className="text-xl" /> Book Free Strategy Call
+  </button>
+
+  {/* WhatsApp Button */}
+  <a
+    href="https://wa.me/923366261060"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center gap-2 
+               bg-green-500 hover:bg-green-600 text-white font-semibold 
+               px-10 py-3 rounded-full transition text-lg 
+               whitespace-nowrap w-64 h-14"
+  >
+    <FaWhatsapp className="text-xl" /> WhatsApp Now
+  </a>
+
+</div>
+
 
           {/* Stats Numbers */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-16 mt-10 text-center">
