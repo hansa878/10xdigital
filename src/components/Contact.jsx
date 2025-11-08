@@ -51,16 +51,18 @@ const Contact = () => {
             </p>
 
             <button
-              onClick={() => {
-                const element = document.getElementById("butto-call"); 
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-lg mb-4 flex items-center justify-center gap-2 transition"
-            >
-              <FaPhoneAlt /> Book My Free Call Now
-            </button>
+  onClick={() => {
+    const element = document.getElementById("butto-call"); 
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+  className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-full mb-4 flex items-center justify-center gap-2 transition"
+>
+  <FaPhoneAlt /> Book My Free Call Now
+</button>
+
+
 
             <div className="text-gray-400 text-sm flex flex-col md:flex-row justify-center gap-4 mt-2">
               <span>✅ No commitment required</span>
@@ -81,11 +83,11 @@ const Contact = () => {
             <div className="flex flex-col gap-3 text-gray-300">
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-red-600" />
-                <span>+92 300 1234567</span>
+                <span>+92 3064348530</span>
               </div>
               <div className="flex items-center gap-3">
                 <FaWhatsapp className="text-green-500" />
-                <span>Chat Now</span>
+                <span>03064348530</span>
               </div>
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-red-600" />

@@ -41,23 +41,22 @@ const Header = () => {
           </a>
         </nav>
 
-        {/* Buttons (Desktop) */}
         <div className="hidden md:flex space-x-3">
-          <a
-            href="https://wa.me/923366261060?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 text-white px-5 py-2 font-semibold rounded-md hover:bg-green-600 transition"
-          >
-            WhatsApp
-          </a>
-          <a
-            href="#butto-call"
-            className="bg-red-600 text-white px-5 py-2 font-semibold rounded-md hover:bg-red-700 transition"
-          >
-            Book Call
-          </a>
-        </div>
+  <a
+    href="https://wa.me/923366261060?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-500 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-green-600 transition"
+  >
+    WhatsApp
+  </a>
+  <a
+    href="#butto-call"
+    className="bg-red-600 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-red-700 transition"
+  >
+    Book Call
+  </a>
+</div>
 
         {/* Mobile Menu Button */}
         <button
@@ -95,22 +94,22 @@ const Header = () => {
           </a>
 
           {/* Buttons (Mobile) */}
-          <div className="flex space-x-3 pt-3">
-            <a
-              href="https://wa.me/923366261060?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 text-white px-5 py-2 font-semibold rounded-md hover:bg-green-600 transition"
-            >
-              WhatsApp
-            </a>
-            <a
-              href="#button"
-              className="bg-red-600 text-white px-5 py-2 font-semibold rounded-md hover:bg-red-700 transition"
-            >
-              Book Call
-            </a>
-          </div>
+<div className="flex space-x-3 pt-3">
+  <a
+    href="https://wa.me/923366261060?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-green-500 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-green-600 transition"
+  >
+    WhatsApp
+  </a>
+  <a
+    href="#button"
+    className="bg-red-600 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-red-700 transition"
+  >
+    Book Call
+  </a>
+</div>
         </nav>
       </div>
     </header>

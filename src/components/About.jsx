@@ -188,19 +188,20 @@ const About = () => {
 
       {/* Call-to-Action Button */}
       <div className="mt-6 flex justify-center">
-        <button
-  onClick={() => {
-    const section = document.getElementById("butto-call"); // Replace with your target section's id
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  }}
-  className="bg-red-500 text-white font-medium px-8 py-3 rounded-md hover:bg-red-600 transition"
->
-  Start Risk-Free Today
-</button>
+  <button
+    onClick={() => {
+      const section = document.getElementById("butto-call"); // Replace with your target section's id
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }}
+    className="bg-red-500 text-white font-medium px-10 sm:px-12 py-3 rounded-full 
+               hover:bg-red-600 transition duration-300"
+  >
+    Start Risk-Free Today
+  </button>
+</div>
 
-      </div>
     </section>
   );
 };

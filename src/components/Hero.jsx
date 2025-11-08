@@ -68,7 +68,7 @@ const Hero = () => {
                px-10 py-3 rounded-full transition text-lg 
                whitespace-nowrap w-64 h-14"
   >
-    <FaPhoneAlt className="text-xl" /> Book Free Strategy Call
+    <FaPhoneAlt className="text-xl" /> Book Free Call 
   </button>
 
   {/* WhatsApp Button */}
@@ -90,16 +90,16 @@ const Hero = () => {
           {/* Stats Numbers */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-16 mt-10 text-center">
             <div>
-              <div className="text-red-500 font-bold text-3xl sm:text-6xl">180+</div>
-              <div className="text-white mt-1 text-sm sm:text-base">Clients Served</div>
+              <div className="text-white font-bold text-3xl sm:text-6xl">180+</div>
+              <div className="text-green-500 mt-1 text-sm sm:text-base">Clients Served</div>
             </div>
             <div>
-              <div className="text-red-500 font-bold text-3xl sm:text-6xl">₨50M+</div>
-              <div className="text-white mt-1 text-sm sm:text-base">Revenue Generated</div>
+              <div className="text-white font-bold text-3xl sm:text-6xl">₨50M+</div>
+              <div className="text-green-500 mt-1 text-sm sm:text-base">Revenue Generated</div>
             </div>
             <div>
-              <div className="text-red-500 font-bold text-3xl sm:text-6xl">1M+</div>
-              <div className="text-white mt-1 text-sm sm:text-base">Average Growth</div>
+              <div className="text-white font-bold text-3xl sm:text-6xl">1M+</div>
+              <div className="text-green-500 mt-1 text-sm sm:text-base">Average Growth</div>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Hero = () => {
 <section className="bg-black py-20 px-4 sm:px-6 md:px-8">
   <div className="container mx-auto text-center">
     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-snug mb-6">
-      Are You Tired of <span className="text-red-500">Slow Growth?</span>
+      Are You Tired of <span className="text-white">Slow Growth?</span>
     </h2>
     <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-16">
       Most businesses struggle with the same frustrating problems that keep them stuck...
@@ -156,11 +156,12 @@ const Hero = () => {
       What if we told you there's a proven way to 10x your growth?
     </h3>
     <a
-      href="#services"
-      className="inline-block bg-red-600 text-white px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-lg hover:bg-red-700 transition duration-300 whitespace-nowrap"
-    >
-      Show Me The Solution →
-    </a>
+  href="#services"
+  className="inline-block bg-red-600 text-white px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full hover:bg-red-700 transition duration-300 whitespace-nowrap"
+>
+  Show Me The Solution →
+</a>
+
   </div>
 </section>
 

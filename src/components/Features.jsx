@@ -114,21 +114,21 @@ const GrowthSystem = () => {
       </div>
 
       {/* Button */}
-      <div className="mt-16">
-        <button
-  id="case-studies"
-  className="bg-red-600 text-white font-semibold text-lg py-4 px-10 rounded-xl border border-white/20 hover:bg-red-700 hover:shadow-[0_0_15px_rgba(239,68,68,0.6)] transition-all duration-300"
-  onClick={() => {
-    const section = document.getElementById("case-studies");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  }}
->
-  See Real Results →
-</button>
+<div className="mt-16">
+  <button
+    id="case-studies"
+    className="bg-red-600 text-white font-semibold text-lg py-4 px-12 rounded-full border border-white/20 hover:bg-red-700 hover:shadow-[0_0_15px_rgba(239,68,68,0.6)] transition-all duration-300"
+    onClick={() => {
+      const section = document.getElementById("case-studies");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }}
+  >
+    See Real Results →
+  </button>
+</div>
 
-      </div>
     </section>
   );
 };

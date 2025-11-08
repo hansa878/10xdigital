@@ -145,10 +145,11 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-    src={SirImage}
-    alt="Business Podcast"
-    className="w-full h-44 object-cover rounded-xl"
-  />
+  src={SirImage}
+  alt="Business Podcast"
+  className="w-full h-auto max-h-60 sm:h-44 object-contain sm:object-cover rounded-xl"
+/>
+
           </div>
           <div className="px-6 pb-6 text-left">
             <h3 className="text-white text-2xl font-bold mb-2">Business Podcast</h3>
@@ -195,20 +196,21 @@ const CaseStudies = () => {
       </p>
 
       {/* Button */}
-      <div>
+      <div className="flex justify-center">
   <button
-    
     onClick={() => {
       const section = document.getElementById("butto-call"); // target section ka id
       if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }
     }}
-    className="bg-red-600 text-white font-semibold text-lg py-3 px-8 rounded-md hover:bg-red-700 transition duration-300"
+    className="bg-red-600 text-white font-semibold text-lg py-3 px-10 sm:px-12 rounded-full 
+               hover:bg-red-700 transition duration-300"
   >
     Get Your FREE Strategy Call →
   </button>
 </div>
+
 
     </section>
     
