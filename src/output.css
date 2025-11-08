@@ -643,9 +643,6 @@
   .bg-black {
     background-color: var(--color-black);
   }
-  .bg-blue-400 {
-    background-color: var(--color-blue-400);
-  }
   .bg-blue-600 {
     background-color: var(--color-blue-600);
   }
@@ -654,9 +651,6 @@
   }
   .bg-green-500 {
     background-color: var(--color-green-500);
-  }
-  .bg-green-600 {
-    background-color: var(--color-green-600);
   }
   .bg-green-900\/30 {
     background-color: color-mix(in srgb, oklch(39.3% 0.095 152.535) 30%, transparent);
@@ -684,9 +678,6 @@
   }
   .bg-red-700 {
     background-color: var(--color-red-700);
-  }
-  .bg-red-900 {
-    background-color: var(--color-red-900);
   }
   .bg-red-900\/30 {
     background-color: color-mix(in srgb, oklch(39.6% 0.141 25.723) 30%, transparent);
@@ -1115,13 +1106,6 @@
       }
     }
   }
-  .hover\:bg-blue-500 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-blue-500);
-      }
-    }
-  }
   .hover\:bg-blue-700 {
     &:hover {
       @media (hover: hover) {
@@ -1143,13 +1127,6 @@
       }
     }
   }
-  .hover\:bg-green-700 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-green-700);
-      }
-    }
-  }
   .hover\:bg-pink-600 {
     &:hover {
       @media (hover: hover) {
@@ -1168,13 +1145,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-red-700);
-      }
-    }
-  }
-  .hover\:bg-red-800 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-red-800);
       }
     }
   }

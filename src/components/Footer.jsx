@@ -1,5 +1,7 @@
 import React from "react";
-import { FaWhatsapp, FaEnvelope, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6"; // TikTok icon
+import { SiX } from "react-icons/si"; // X icon
 import logo from "../assets/logo.jpg"; // Make sure the path is correct
 
 const Footer = () => {
@@ -17,18 +19,20 @@ const Footer = () => {
           </p>
           <div className="flex gap-3 mt-2">
             <a
-              href="https://wa.me/your-number"
+              href="https://www.tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-600 hover:bg-green-700 p-3 rounded-full text-white transition"
+              className="bg-black hover:bg-gray-800 p-3 rounded-full text-white transition"
             >
-              <FaWhatsapp />
+              <FaTiktok />
             </a>
             <a
-              href="mailto:hello@10xdigital.pk"
-              className="bg-red-900 hover:bg-red-800 p-3 rounded-full text-white transition"
+              href="https://www.x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-black hover:bg-gray-800 p-3 rounded-full text-white transition"
             >
-              <FaEnvelope />
+              <SiX />
             </a>
             <a
               href="https://www.instagram.com/your-instagram"
@@ -45,14 +49,6 @@ const Footer = () => {
               className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition"
             >
               <FaFacebookF />
-            </a>
-            <a
-              href="https://twitter.com/your-twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-400 hover:bg-blue-500 p-3 rounded-full text-white transition"
-            >
-              <FaTwitter />
             </a>
           </div>
         </div>

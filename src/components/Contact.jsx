@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt className="text-yellow-500" />
-                <span>Islamabad's Lahore, Karachi</span>
+                <span>Islamabad , Lahore , Karachi</span>
               </div>
             </div>
 

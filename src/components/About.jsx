@@ -32,8 +32,11 @@ const About = () => {
       img: img3,
       name: "Saleha Naqvi",
       role: "Director Creatives",
-      desc: "Director of Creatives, with over four years of experience leading innovative design initiatives, developing compelling visual strategies, and driving brand growth through creative excellence.",
-      stats: [],
+      desc: "Director of Creatives with 4+ years of experience leading design initiatives, crafting innovative visual strategies, and driving brand growth.",
+      stats: [
+        { title: "Design Build", value: "100+" },
+        { title: "Success Score", value: "100%" }
+      ],
       tags: ["Visual Designer", "Art Designer", "Creative Expert"]
     }
   ];
