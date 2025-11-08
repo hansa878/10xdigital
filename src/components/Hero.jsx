@@ -108,8 +108,8 @@ const Hero = () => {
       {/* Problem Cards Section */}
 <section className="bg-black py-20 px-4 sm:px-6 md:px-8">
   <div className="container mx-auto text-center">
-    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-red-500 leading-snug mb-6">
-      Are You Tired of <span className="text-red-500">Slow Growth?</span>
+    <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-snug mb-6">
+      Are You Tired of <span className="text-white">Slow Growth?</span>
     </h2>
     <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-16">
       Most businesses struggle with the same frustrating problems that keep them stuck...
