@@ -62,14 +62,19 @@ const Hero = () => {
 
   {/* Book Free Strategy Call Button */}
   <button
-    type="butto-call"
-    className="flex items-center justify-center gap-2 
-               bg-red-600 hover:bg-red-700 text-white font-semibold 
-               px-10 py-3 rounded-full transition text-lg 
-               whitespace-nowrap w-64 h-14"
-  >
-    <FaPhoneAlt className="text-xl" /> Book Free Call 
-  </button>
+      onClick={() => {
+        const section = document.getElementById("butto-call"); // replace with your target section id
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }}
+      className="flex items-center justify-center gap-2 
+                 bg-red-600 hover:bg-red-700 text-white font-semibold 
+                 px-10 py-3 rounded-full transition text-lg 
+                 whitespace-nowrap w-64 h-14"
+    >
+      <FaPhoneAlt className="text-xl" /> Book Free Call
+    </button>
 
   {/* WhatsApp Button */}
   <a
