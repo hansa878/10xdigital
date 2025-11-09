@@ -199,7 +199,7 @@ const CaseStudies = () => {
       <div className="flex justify-center">
   <button
     onClick={() => {
-      const section = document.getElementById("butto-call"); // target section ka id
+      const section = document.getElementById("butto-call"); 
       if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }

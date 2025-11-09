@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import img1 from "../assets/img.jpeg";
 import img2 from "../assets/img2.jpeg";
-import img3 from "../assets/img3.jpeg"; // Replace with actual image path
+import img3 from "../assets/img3.jpeg"; 
 
 const About = () => {
   const cards = [
@@ -59,7 +59,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        {/* Expert Cards */}
+      
         <div className="grid md:grid-cols-3 gap-10">
           {cards.map((card, idx) => (
             <motion.div

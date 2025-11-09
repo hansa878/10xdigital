@@ -1,7 +1,6 @@
 import React from "react";
 import "./Clients.css";
 
-// Logos import karo
 import PMLN from "../assets/logos/pmln.jpg";
 import PTI from "../assets/logos/pti.jpg";
 import PPP from "../assets/logos/ppp.jpg";

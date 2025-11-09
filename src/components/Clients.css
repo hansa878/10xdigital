@@ -10,13 +10,13 @@
 
 .animate-marquee {
   display: flex;
-  gap: 1.5rem; /* logos ke beech thoda kam gap */
-  animation: marquee 15s linear infinite; /* faster scroll, 15s instead of 30s */
+  gap: 1.5rem; 
+  animation: marquee 15s linear infinite; 
 }
 
 .brand-container {
-  flex-shrink: 0; /* logos shrink na ho */
-  width: 120px; /* logo + name ke liye container */
+  flex-shrink: 0; 
+  width: 120px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@
 .brand-name {
   margin-top: 0.5rem;
   font-size: 0.75rem;
-  color: #fff; /* white text on dark bg */
+  color: #fff; 
   line-height: 1rem;
-  word-break: break-word; /* long names wrap ho */
+  word-break: break-word; 
 }

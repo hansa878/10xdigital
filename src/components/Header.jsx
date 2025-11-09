@@ -114,10 +114,10 @@ const Header = () => {
             </a>
             
 <Link
-  to="butto-call"       // <-- ensure this matches section id exactly
+  to="butto-call"       
   smooth={true}
   duration={600}
-  offset={-70}         // adjust for fixed header height
+  offset={-70}         
   className="cursor-pointer bg-red-600 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-red-700 transition"
 >
   Book Call

@@ -130,11 +130,10 @@ const BookCallButton = () => {
             </div>
 
             {/* Submit Button */}
-{/* Submit Button */}
 <div className="flex flex-col items-center gap-4 mt-4">
   {/* Buttons Section */}
 <div className="flex flex-col items-center gap-4 mt-4">
-  {/* Submit Button */}
+
   {/* Buttons Section */}
 <div className="flex flex-col items-center gap-4 mt-4">
   {/* Submit Button */}
