@@ -26,30 +26,30 @@ const Footer = () => {
             >
               <FaTiktok />
             </a>
+           <a
+  href="https://x.com/10xdigitalpk"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-black hover:bg-gray-800 p-3 rounded-full text-white transition"
+>
+  <SiX />
+</a>
             <a
-              href="https://www.x.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-black hover:bg-gray-800 p-3 rounded-full text-white transition"
-            >
-              <SiX />
-            </a>
+  href="https://instagram.com/10xdigitalpk"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full text-white transition"
+>
+  <FaInstagram />
+</a>
             <a
-              href="https://www.instagram.com/your-instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full text-white transition"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.facebook.com/your-facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition"
-            >
-              <FaFacebookF />
-            </a>
+  href="https://facebook.com/10xdigitalpk"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full text-white transition"
+>
+  <FaFacebookF />
+</a>
           </div>
         </div>
 

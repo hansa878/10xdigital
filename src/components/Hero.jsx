@@ -1,22 +1,23 @@
 import React from "react";
 import { FaWhatsapp, FaPhoneAlt, FaChartLine, FaDollarSign, FaTrophy } from "react-icons/fa";
-import HeroImage from "../assets/logos/lapp.jpg";
+
 
 const Hero = () => {
   return (
     <>
       <section
- id="home"
+  id="home"
   className="relative flex flex-col items-center justify-center text-center font-[Poppins] w-full min-h-screen bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url(${HeroImage})` ,
+  style={{
+    backgroundImage: `url('/lapp.jpg')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     minHeight: "100vh",
-    paddingTop: "100px",         // header ke neeche content
-     // optional, image ko scroll ke saath stable rakhta hai
+    paddingTop: "100px",
   }}
 >
+
 
         {/* Overlay */}
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-black/60 via-black/10 to-transparent"></div>

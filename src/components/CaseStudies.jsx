@@ -35,10 +35,10 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-              src="https://cdn.dribbble.com/userupload/15259892/file/original-35a5eb87c6e3321eb53e23a2fa058d34.jpg?resize=400x0"
-              alt="Fashion E-commerce"
-              className="w-full h-44 object-cover rounded-xl"
-            />
+  src="/Shopify-Theme-Store.jpg"
+  alt="Shopify Theme Store"
+  className="w-full h-44 object-cover rounded-xl"
+/>
           </div>
           <div className="px-6 pb-6 text-left transition-all duration-300">
             <h3 className="text-white text-2xl font-bold mb-2">
@@ -91,7 +91,7 @@ const CaseStudies = () => {
         >
           <div className="p-4">
             <img
-              src="https://www.alphajwc.com/wp-content/uploads/2023/04/saas-concept-collage.jpg"
+              src="/saas-concept-collage.jpg"
               alt="SaaS Startup"
               className="w-full h-44 object-cover rounded-xl"
             />

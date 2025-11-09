@@ -21,12 +21,12 @@ const About = () => {
       img: img2,
       name: "Abdul Qadeer",
       role: "CTO",
-      desc: "10+ years building high-performance web applications and e-commerce platforms. Expert in modern web technologies and scalable architectures.",
+      desc: "10+ years building high-performance web applications & e-commerce platforms. Expert in modern web technologies.",
       stats: [
         { title: "Websites Built", value: "200+" },
         { title: "Uptime Record", value: "99.9%" }
       ],
-      tags: ["React Expert", "Shopify Partner", "AWS Certified"]
+      tags: ["Tech Expert", "Shopify Partner", "AWS Certified"]
     },
     {
       img: img3,
