@@ -153,7 +153,7 @@ const BookCallButton = () => {
 
   {/* WhatsApp Button */}
   <a
-    href="https://wa.me/923366261060"
+    href="https://wa.me/923064348530"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center justify-center gap-2 

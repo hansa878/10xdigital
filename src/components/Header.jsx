@@ -51,7 +51,7 @@ const Header = () => {
         {/* Buttons */}
         <div className="hidden md:flex space-x-2">
           <a
-            href="https://wa.me/923366261060?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
+            href="https://wa.me/923064348530?text=Hello!%20I%20want%20to%20connect%20with%2010xDigital.pk"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-6 py-2.5 font-semibold rounded-full hover:bg-green-600 transition"

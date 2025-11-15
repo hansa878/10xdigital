@@ -9,7 +9,7 @@ const About = () => {
     {
       img: img1,
       name: "Syed Ali Raza",
-      role: "Founder & CEO",
+      role: "Founder",
       desc: "7+ years of experience scaling businesses from startup to 8-figures. Specialized in performance marketing and conversion optimization.",
       stats: [
         { title: "Campaigns Managed", value: "300+" },
@@ -18,9 +18,9 @@ const About = () => {
       tags: ["Google Ads Certified", "Meta Ads Expert", "HubSpot Expert"]
     },
     {
-      img: img2,
+      img: img2, 
       name: "Abdul Qadeer",
-      role: "CTO",
+      role: "CEO",
       desc: "10+ years building high-performance web applications & e-commerce platforms. Expert in modern web technologies.",
       stats: [
         { title: "Websites Built", value: "200+" },
